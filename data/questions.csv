@@ -1,0 +1,181 @@
+Q#,Graph,Question Type,Question,Answer
+1,Line1,Comprehension,"At hour 6, what is the concentration of NMHC? Return only the number.",16
+2,Line1,Comprehension,"At hour 8, what is the concentration of N.O2? Return only the number.",112
+3,Line1,Comprehension,"At hour 10, what is the concentration of C6H6? Return only the number.",63
+4,Line1,Comprehension,"At hour 12, what is the concentration of N.O2? Return only the number.",95
+5,Line1,Comprehension,"At hour 14, what is the concentration of NMHC? Return only the number.",164
+6,Line1,Comprehension,"At hour 16, what is the concentration of C6H6? Return only the number.",83
+7,Line1,Comprehension,"At hour 17, what is the concentration of N.O2? Return only the number.",135
+8,Line1,Comprehension,"At hour 19, what is the concentration of NMHC? Return only the number.",461
+9,Line1,Comprehension,"At hour 21, what is the concentration of C6H6? Return only the number.",128
+10,Line1,Comprehension,At what hour does the concentration of NMHC first reach 461? Return only the number.,19
+11,Line1,Interpretation,Which gas has the highest concentration at hour 6? Return only the gas name.,N.O2
+12,Line1,Interpretation,Which gas has the lowest concentration at hour 7? Return only the gas name.,NMHC
+13,Line1,Interpretation,Which gas has the highest concentration at hour 9? Return only the gas name.,N.O2
+14,Line1,Interpretation,Which gas has the lowest concentration at hour 11? Return only the gas name.,NMHC
+15,Line1,Interpretation,Which gas has the highest concentration at hour 13? Return only the gas name.,N.02
+16,Line1,Interpretation,Which gas has the lowest concentration at hour 15 between C6H6 and N.O2? Return only the gas name.,C6H6
+17,Line1,Interpretation,Which gas has the highest concentration at hour 17? Return only the gas name.,NMHC
+18,Line1,Interpretation,Which gas has the lowest concentration at hour 18? Return only the gas name.,N.O2
+19,Line1,Interpretation,Which gas has the highest concentration at hour 19 between C6H6 and N.O2? Return only the gas name.,C6H6
+20,Line1,Interpretation,Which gas has the lowest concentration at hour 21? Return only the gas name.,C6H6
+21,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of NMHC at hour 5? Return only the number.",3
+22,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of C6H6 at hour 5? Return only the number.",0
+23,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of N.O2 at hour 5? Return only the number.",14
+24,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of NMHC at hour 4? Return only the number.",-10
+25,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of C6H6 at hour 4? Return only the number.",-16
+26,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of N.O2 at hour 4? Return only the number.",-20
+27,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of NMHC at hour 3? Return only the number.",-23
+28,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of C6H6 at hour 3? Return only the number.",-32
+29,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of N.O2 at hour 3? Return only the number.",-54
+30,Line1,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the concentration of NMHC at hour 2? Return only the number.",-36
+31,Line2,Comprehension,"At hour 6, what is the user count of registered users? Return only the number.",0
+32,Line2,Comprehension,"At hour 7, what is the user count of casual users? Return only the number.",1
+33,Line2,Comprehension,"At hour 8, what is the user count of registered users? Return only the number.",7
+34,Line2,Comprehension,"At hour 10, what is the user count of casual users? Return only the number.",12
+35,Line2,Comprehension,"At hour 12, what is the user count of registered users? Return only the number.",55
+36,Line2,Comprehension,"At hour 13, what is the user count of casual users? Return only the number.",47
+37,Line2,Comprehension,"At hour 14, what is the user count of registered users? Return only the number.",71
+38,Line2,Comprehension,"At hour 16, what is the user count of casual users? Return only the number.",41
+39,Line2,Comprehension,"At hour 18, what is the user count of registered users? Return only the number.",26
+40,Line2,Comprehension,At what hour does the user count of casual users first reach 29? Return only the number.,12
+41,Line2,Interpretation,Are there more casual or registered users at hour 6? Return only the type (casual or registered).,casual
+42,Line2,Interpretation,Are there more casual or registered users at hour 7?  Return only the type (casual or registered).,registered
+43,Line2,Interpretation,Are there less casual or registered users at hour 9?  Return only the type (casual or registered).,registered
+44,Line2,Interpretation,Are there less casual or registered users at hour 10?  Return only the type (casual or registered).,casual
+45,Line2,Interpretation,Are there more casual or registered users at hour 11?  Return only the type (casual or registered).,registered
+46,Line2,Interpretation,Are there less casual or registered users at hour 12?  Return only the type (casual or registered).,casual
+47,Line2,Interpretation,Are there more casual or registered users at hour 14?  Return only the type (casual or registered).,registered
+48,Line2,Interpretation,Are there less casual or registered users at hour 16?  Return only the type (casual or registered).,casual
+49,Line2,Interpretation,Are there more casual or registered users at hour 17?  Return only the type (casual or registered).,registered
+50,Line2,Interpretation,Are there less casual or registered users at hour 18?  Return only the type (casual or registered).,casual
+51,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of casual users at hour 5? Return only the number.",3
+52,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of registered users at hour 5? Return only the number.",-2
+53,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of casual users at hour 4? Return only the number.",4
+54,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of registered users at hour 4? Return only the number.",-4
+55,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of casual users at hour 3? Return only the number.",5
+56,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of registered users at hour 3? Return only the number.",-6
+57,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of casual users at hour 2? Return only the number.",6
+58,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of registered users at hour 2? Return only the number.",-8
+59,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of casual users at hour 1? Return only the number.",7
+60,Line2,Extrapolation,"Using your best estimate, with the data trends in this graph, what do you predict would be the user-count of registered users at hour 1? Return only the number.",-10
+61,Scatter1,Comprehension,How many Species Clusters are there in total? Return only the number.,4
+62,Scatter1,Comprehension,How many data points are in the Barbunya Species Cluster? Return only the number.,14
+63,Scatter1,Comprehension,How many data points are in the Dermason Species Cluster? Return only the number.,51
+64,Scatter1,Comprehension,How many data points are in the Horoz Species Cluster? Return only the number.,19
+65,Scatter1,Comprehension,How many data points are in the Seker Species Cluster? Return only the number.,16
+66,Scatter1,Comprehension,What species has a major axis length of 262.0 and a minor axis length of 214.0? Return only the name of the species.,Seker
+67,Scatter1,Comprehension,What species has a major axis length of 387.0 and a minor axis length of 232.0? Return only the name of the species.,Barbunya
+68,Scatter1,Comprehension,What species has a major axis length of 390.0 and a minor axis length of 176.0? Return only the name of the species.,Horoz
+69,Scatter1,Comprehension,What species has a major axis length of 204.0 and a minor axis length of 142.0? Return only the name of the species.,Dermason
+70,Scatter1,Comprehension,What species has a major axis length of 246.0 and a minor axis length of 155.0? Return only the name of the species.,Dermason
+71,Scatter1,Interpretation,What species has higher average major axis lengths out of Barbunya and Dermason? Return only the name of the species.,Barbunya
+72,Scatter1,Interpretation,What species has lower average minor axis lengths out of Barbunya and Horoz? Return only the name of the species.,Horoz
+73,Scatter1,Interpretation,What species has lower average major axis lengths out of Seker and Horoz? Return only the name of the species.,Seker
+74,Scatter1,Interpretation,What species has higher average minor axis lengths out of Horoz and Dermason? Return only the name of the species.,Horoz
+75,Scatter1,Interpretation,What species has lower average minor axis lengths out of Barbunya and Dermason? Return only the name of the species.,Dermason
+76,Scatter1,Interpretation,What species has lower average minor axis lengths out of Seker and Horoz? Return only the name of the species.,Horoz
+77,Scatter1,Interpretation,"What species has higher average minor axis lengths out of Barbunya, Dermason, and Horoz? Return only the name of the species.",Barbunya
+78,Scatter1,Interpretation,"What species has higher average major axis lengths out of Dermason, Horoz, and Seker? Return only the name of the species.",Horoz
+79,Scatter1,Interpretation,"What species has lower average major axis lengths out of Horoz, Seker, and Barbunya? Return only the name of the species.",Seker
+80,Scatter1,Interpretation,"What species has higher average major axis lengths out of Seker, Barbunya, and Dermason? Return only the name of the species.",Barbunya
+81,Scatter1,Extrapolation,A new bean has a minor axis length of 270. To what species cluster do you predict it would belong to? Return only the name of the species.,Barbunya
+82,Scatter1,Extrapolation,A new bean has a minor axis length of 250. To what species cluster do you predict it would belong to? Return only the name of the species.,Barbunya
+83,Scatter1,Extrapolation,A new bean has a minor axis length of 240. To what species cluster do you predict it would belong to? Return only the name of the species.,Barbunya
+84,Scatter1,Extrapolation,A new bean has a minor axis length of 210. To what species cluster do you predict it would belong to? Return only the name of the species.,Seker
+85,Scatter1,Extrapolation,A new bean has a minor axis length of 160. To what species cluster do you predict it would belong to? Return only the name of the species.,Dermason
+86,Scatter1,Extrapolation,A new bean has a major axis length of 200. To what species cluster do you predict it would belong to? Return only the name of the species.,Dermason
+87,Scatter1,Extrapolation,A new bean has a major axis length of 400 and a minor axis length of 180. To what species cluster do you predict it would belong to? Return only the name of the species.,Horoz
+88,Scatter1,Extrapolation,A new bean has a major axis length of 250 and a minor axis length of 210. To what species cluster do you predict it would belong to? Return only the name of the species.,Seker
+89,Scatter1,Extrapolation,A new bean has a major axis length of 250 and a minor axis length of 170. To what species cluster do you predict it would belong to? Return only the name of the species.,Dermason
+90,Scatter1,Extrapolation,A new bean has a major axis length of 375 and a minor axis length of 250. To what species cluster do you predict it would belong to? Return only the name of the species.,Barbunya
+91,Scatter2,Comprehension,How many Brand Clusters are there in total? Return only the number.,4
+92,Scatter2,Comprehension,How many data points are in the Brand A Cluster? Return only the number.,11
+93,Scatter2,Comprehension,How many data points are in the Brand B Cluster? Return only the number.,18
+94,Scatter2,Comprehension,How many data points are in the Brand C Cluster? Return only the number.,54
+95,Scatter2,Comprehension,How many data points are in the Brand D Cluster? Return only the number.,17
+96,Scatter2,Comprehension,"Which brand has a highway-mpg of 19.0 and a price of 35.55? Return only the Brand (Format: ""Brand -"").",Brand A
+97,Scatter2,Comprehension,"Which brand has a highway-mpg of 31.0 and a price of 32.0? Return only the Brand (Format: ""Brand -"").",Brand B
+98,Scatter2,Comprehension,"Which brand has a highway-mpg of 37.0 and a price of 7.2? Return only the Brand (Format: ""Brand -"").",Brand C
+99,Scatter2,Comprehension,"Which brand has a highway-mpg of 33.0 and a price of 8.01? Return only the Brand (Format: ""Brand -"").",Brand C
+100,Scatter2,Comprehension,"Which brand has a highway-mpg of 29.0 and a price of 20.95? Return only the Brand (Format: ""Brand -"").",Brand D
+101,Scatter2,Interpretation,"What species has a higher average highway-mpg out of Brand A and Brand B? Return only the Brand (Format: ""Brand -"").",Brand B
+102,Scatter2,Interpretation,"What species has a higher average highway-mpg out of Brand D and Brand B? Return only the Brand (Format: ""Brand -"").",Brand B
+103,Scatter2,Interpretation,"What species has a higher average highway-mpg out of Brand A and Brand C? Return only the Brand (Format: ""Brand -"").",Brand C
+104,Scatter2,Interpretation,"What species has a higher average highway-mpg out of Brand D and Brand C? Return only the Brand (Format: ""Brand -"").",Brand C
+105,Scatter2,Interpretation,"What species has a higher average highway-mpg out of Brand A and Brand D? Return only the Brand (Format: ""Brand -"").",Brand D
+106,Scatter2,Interpretation,"What species has a higher average price out of Brand B and Brand C? Return only the Brand (Format: ""Brand -"").",Brand B
+107,Scatter2,Interpretation,"What species has a higher average price out of Brand D and Brand B? Return only the Brand (Format: ""Brand -"").",Brand B
+108,Scatter2,Interpretation,"What species has a higher average price out of Brand A and Brand C? Return only the Brand (Format: ""Brand -"").",Brand A
+109,Scatter2,Interpretation,"What species has a higher average price out of Brand D and Brand C? Return only the Brand (Format: ""Brand -"").",Brand D
+110,Scatter2,Interpretation,"What species has a higher average price out of Brand A and Brand D? Return only the Brand (Format: ""Brand -"").",Brand A
+111,Scatter2,Extrapolation,"A new bean has a price of 10 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand C
+112,Scatter2,Extrapolation,"A new bean has a price of 20 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand D
+113,Scatter2,Extrapolation,"A new bean has a highway-mpg of 17. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand A
+114,Scatter2,Extrapolation,"A new bean has a highway-mpg of 20. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand A
+115,Scatter2,Extrapolation,"A new bean has a highway-mpg of 43. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand B
+116,Scatter2,Extrapolation,"A new bean has a highway-mpg of 27 and a price of 9 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand C
+117,Scatter2,Extrapolation,"A new bean has a highway-mpg of 35 and a price of 35 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand B
+118,Scatter2,Extrapolation,"A new bean has a highway-mpg of 25 and a price of 22 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand D
+119,Scatter2,Extrapolation,"A new bean has a highway-mpg of 29 and a price of 21 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand D
+120,Scatter2,Extrapolation,"A new bean has a highway-mpg of 30 and a price of 35 thousand USD. To what brand cluster do you predict it would belong to? Return only the Brand (Format: ""Brand -"").",Brand B
+121,Bar1,Comprehension,"For Quarter 1, what was the consumer spending on Utilities? Return only the number (Format: ""2,000.00"").",20
+122,Bar1,Comprehension,"For Quarter 1, what was the consumer spending on Rent? Return only the number (Format: ""2,000.00"").",80
+123,Bar1,Comprehension,"For Quarter 1, what was the consumer spending on Food? Return only the number (Format: ""2,000.00"").",20
+124,Bar1,Comprehension,"For Quarter 2, what was the consumer spending on Utilities? Return only the number (Format: ""2,000.00"").",60
+125,Bar1,Comprehension,"For Quarter 2, what was the consumer spending on Rent? Return only the number (Format: ""2,000.00"").",80
+126,Bar1,Comprehension,"For Quarter 2, what was the consumer spending on Food? Return only the number (Format: ""2,000.00"").",20
+127,Bar1,Comprehension,How many Quarters are there total? Return only the number.,2
+128,Bar1,Comprehension,How many Categories of Spending are there total? Return only the number.,3
+129,Bar1,Comprehension,"Which category of spending do the pink lines stand for? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Utilities
+130,Bar1,Comprehension,"Which category of spending do the green lines stand for? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Rent
+131,Bar1,Interpretation,"For Quarter 1, which category of spending did consumers spend the most on? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Rent
+132,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend the most on? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Rent
+133,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend the least on? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Food
+134,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend 60 thousand dollars on? Return only the category (Format: ""Utilities"" or ""Rent"" or ""Food"").",Utilities
+135,Bar1,Interpretation,"For Quarter 1, which category of spending did consumers spend less on, ""Rent"" or ""Utilities""? Return only the category (Format: ""Utilities"" or ""Rent"").",Utilities
+136,Bar1,Interpretation,"For Quarter 1, which category of spending did consumers spend more on, ""Rent"" or ""Food""? Return only the category (Format: ""Food"" or ""Rent"").",Rent
+137,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend more on, ""Utilities"" or ""Rent""? Return only the category (Format: ""Food"" or ""Rent"").",Rent
+138,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend more on, ""Rent"" or ""Food""? Return only the category (Format: ""Food"" or ""Rent"").",Rent
+139,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend more on, ""Food"" or ""Utilities""? Return only the category (Format: ""Food"" or ""Rent"").",Utilities
+140,Bar1,Interpretation,"For Quarter 2, which category of spending did consumers spend less on, ""Rent"" or ""Food""? Return only the category (Format: ""Food"" or ""Rent"").",Food
+141,Bar1,Extrapolation,"A consumer spent 18,000 dollars on Utilities. Which Quarter (1 or 2) would it likely have been? Return only the number (Format: ""1"" or ""2"").",1
+142,Bar1,Extrapolation,"A consumer spent 57,000 dollars on Utilities. Which Quarter (1 or 2) would it likely have been? Return only the number (Format: ""1"" or ""2"").",2
+143,Bar1,Extrapolation,"A consumer spent 80,000 dollars on Rent. Which Quarter (1 or 2) would it likely have been? Return only the number (Format: ""1"" or ""2"") or return the text ""INVALID"" if unable to tell.",INVALID
+144,Bar1,Extrapolation,"A consumer spent 75,000 dollars in Quarter 1. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Rent
+145,Bar1,Extrapolation,"A consumer spent 82,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Rent
+146,Bar1,Extrapolation,"A consumer spent 57,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Utilities
+147,Bar1,Extrapolation,"A consumer spent 19,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Food
+148,Bar1,Extrapolation,"A consumer spent 15,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Food
+149,Bar1,Extrapolation,"A consumer spent 50,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Utilities
+150,Bar1,Extrapolation,"A consumer spent 75,000 dollars in Quarter 2. Based on the graph, which category of spending would they likely have spent the money on? Return only category (Format: ""Utilities"", ""Rent"", or ""Food"").",Rent
+151,Bar2,Comprehension,How many Groups are there total? Return only the number.,2
+152,Bar2,Comprehension,How many types of Device Usage are there total? Return only the number.,3
+153,Bar2,Comprehension,"For Group 1, what was the Device Usage in hours-per-month for Desktop? Return only the number (Format: ""80.00"").",80
+154,Bar2,Comprehension,"For Group 1, what was the Device Usage in hours-per-month for Laptop? Return only the number (Format: ""80.00"").",60
+155,Bar2,Comprehension,"For Group 1, what was the Device Usage in hours-per-month for Phone? Return only the number (Format: ""80.00"").",20
+156,Bar2,Comprehension,"For Group 2, what was the Device Usage in hours-per-month for Desktop? Return only the number (Format: ""80.00"").",60
+157,Bar2,Comprehension,"For Group 2, what was the Device Usage in hours-per-month for Laptop? Return only the number (Format: ""80.00"").",20
+158,Bar2,Comprehension,"For Group 2, what was the Device Usage in hours-per-month for Phone? Return only the number (Format: ""80.00"").",80
+159,Bar2,Comprehension,"In Group 1, which type of Device Usage did users spend 80 hours-per-month on? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Desktop
+160,Bar2,Comprehension,"In Group 2, which type of Device Usage did users spend 20 hours-per-month on? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Laptop
+161,Bar2,Interpretation,"Which Group uses Desktop the most? Return only the number of the Group (Format: ""1"" or ""2"").",1
+162,Bar2,Interpretation,"Which Group uses Laptop the most? Return only the number of the Group (Format: ""1"" or ""2"").",1
+163,Bar2,Interpretation,"Which Group uses Phone the most? Return only the number of the Group (Format: ""1"" or ""2"").",2
+164,Bar2,Interpretation,"In Group 1, which type of Device Usage do users use the most? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Desktop
+165,Bar2,Interpretation,"In Group 1, which type of Device Usage do users use the least? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Phone
+166,Bar2,Interpretation,"In Group 2, which type of Device Usage do users use the most? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Phone
+167,Bar2,Interpretation,"In Group 2, which type of Device Usage do users use the least? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Laptop
+168,Bar2,Interpretation,"In Group 1, which device do users spent more time on, ""Desktop"" or ""Laptop""? Return only the type of Device Usage (Format: ""Desktop"" or ""Laptop"").",Desktop
+169,Bar2,Interpretation,"In Group 1, which device do users spent less time on, ""Laptop"" or ""Phone""? Return only the type of Device Usage (Format: ""Laptop"" or ""Phone"").",Phone
+170,Bar2,Interpretation,"In Group 2, which device do users spent more time on, ""Desktop"" or ""Phone""? Return only the type of Device Usage (Format: ""Desktop"" or ""Phone"").",Phone
+171,Bar2,Extrapolation,"A person used their Desktop Device for 85 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",1
+172,Bar2,Extrapolation,"A person used their Desktop Device for 58 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",2
+173,Bar2,Extrapolation,"A person used their Laptop Device for 63 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",1
+174,Bar2,Extrapolation,"A person used their Laptop Device for 22 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",2
+175,Bar2,Extrapolation,"A person used their Phone Device for 18 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",1
+176,Bar2,Extrapolation,"A person used their Phone Device for 73 hours-per-month. Using graph data, which Group does this person most likely reside in? Return only the number of the Group (Format: ""1"" or ""2"").",2
+177,Bar2,Extrapolation,"A person residing in Group 1 used their Device for 75 hours-per-month. Using graph data, type of Device Usage did the person most likely use? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Desktop
+178,Bar2,Extrapolation,"A person residing in Group 1 used their Device for 32 hours-per-month. Using graph data, type of Device Usage did the person most likely use? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Phone
+179,Bar2,Extrapolation,"A person residing in Group 2 used their Device for 33 hours-per-month. Using graph data, type of Device Usage did the person most likely use? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Laptop
+180,Bar2,Extrapolation,"A person residing in Group 2 used their Device for 67 hours-per-month. Using graph data, type of Device Usage did the person most likely use? Return only the type of Device Usage (Format: ""Desktop"", ""Laptop"", or ""Phone"").",Desktop
